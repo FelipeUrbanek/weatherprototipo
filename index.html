@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Protipo</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="columns">
+        <div class="column">
+          <div class="card-principal is-flex">
+            <div class="imagem">
+              <div class="bg-gradient"></div>
+              <div class="searchdiv">
+                <input type="search" name="" id="search" class="search" />
+                <button class="btn-search">
+                  <i class="fas fa-search"></i>
+                </button>
+                <!--  <input class="country" list="country" />
+                <datalist id="country">
+                  <option value="BR">Brasil</option>
+                  <option value="US"></option>
+                  <option value="MX"></option>
+                  <option value="JPN"></option>
+                  <option value="RU"></option>
+                  <option value="CN"></option>
+                  <option value="IN"></option>
+                  <option value="GB"></option>
+                  <option value="FR"></option>
+                  <option value="IT"></option>
+                  <option value="ES"></option>
+                  <option value="DE"></option>
+                  <option value="NL"></option>
+                  <option value="AT"></option>
+                  <option value="CH"></option>
+                  <option value="BE"></option>
+                  <option value="DK"></option>
+                  <option value="FI"></option>
+                  <option value="GR"></option>
+                  <option value="IE"></option>
+                  <option value="NO"></option>
+                  <option value="SE"></option>
+                  <option value="DK"></option>
+                  <option value="FR"></option>
+                  <option value="GR"></option>
+                  <option value="IE"></option>
+                  <option value="NO"></option>
+                  <option value="SE"></option>
+                  <option value="DK"></option>
+                  <option value="FR"></option>
+                </datalist> -->
+              </div>
+              <!-- <img src="./img/Ceu_limpo.png" alt="" srcset="" class="img" /> -->
+              <div class="imagemcontainer">
+                <figure>
+                  <img
+                    src="./img/imagempadrao.svg"
+                    alt=""
+                    srcset=""
+                    class="img-principal"
+                  />
+                </figure>
+              </div>
+              <p class="clima"></p>
+              <p class="cidade"></p>
+              <p class="temperatura"></p>
+              <p class="pais"></p>
+              <p class="umidade"></p>
+
+              <div class="temperaturas">
+                <div class="min">
+                  <p class="temp-min"></p>
+                  <p>min</p>
+                </div>
+                <div class="max">
+                  <p class="temp-max"></p>
+                  <p>max</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1446d4a291.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
