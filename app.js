@@ -15,8 +15,8 @@ CHAMADA COM CIDADE */
 $(document).ready(function () {
   console.log($(window).width())
   console.log($(window).height())
-  $('.imagem , .bg-gradient').width($(window).width())
-  $('.imagem , .bg-gradient').height($(window).height())
+  $('.imagem , .bg-gradient ,.card-principal').width($(window).width())
+  $('.imagem , .bg-gradient, .card-principal').height($(window).height())
 })
 
 var lat, lon
